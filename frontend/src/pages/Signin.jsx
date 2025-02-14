@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 
 const Signin = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-900">
-      <div className="bg-gray-800 p-8 rounded-lg shadow-lg w-96">
+    <div className="flex justify-center items-center min-h-screen bg-black/100">
+
+      <div className="bg-gray-900 p-8 rounded-lg shadow-lg w-98">
         <h2 className="text-white text-2xl font-bold mb-6 text-center">Sign In</h2>
         <form>
           <input

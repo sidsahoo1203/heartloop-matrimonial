@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+.custom-select option {
+    max-height: 20px;
+    overflow-y: auto;
+}

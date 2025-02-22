@@ -1,15 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Signin from "./pages/Signin";
-import Signup from "./pages/Signup";
+import { UserProvider } from "../context/user.context";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Signin />} />
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
-    </Router>
+    <UserProvider>
+      <AppRoutes/>
+    </UserProvider>
   );
 }
 
